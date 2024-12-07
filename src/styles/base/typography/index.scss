@@ -1,0 +1,88 @@
+@import './type-scale';
+
+html {
+  font-size: 16px;
+}
+
+* {
+  font-family: var(--font-primary);
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h1 * {
+  @include fluid-type(430px, 1440px, 25px, 79px);
+
+  @include below(1000px) {
+    @include fluid-type(430px, 1440px, 38px, 79px);
+  }
+
+  @apply font-medium leading-[96.203%] tracking-[-2.37px];
+}
+
+h2,
+h2 * {
+  @include fluid-type(430px, 1440px, 25px, 39px);
+
+  @apply font-ubuntu font-medium leading-[115.385%];
+}
+
+.xxl,
+.xxl * {
+  @include fluid-type(430px, 1440px, 20px, 25px);
+
+  @include below(768px) {
+    @apply text-[1.5625rem]; // 25px
+  }
+
+  @apply font-medium leading-[128%];
+
+  &.ubuntu {
+    @apply font-ubuntu font-bold leading-none;
+  }
+}
+
+.xl,
+.xl * {
+  @include fluid-type(430px, 1440px, 16px, 20px);
+
+  @apply font-medium;
+}
+
+.lg,
+.lg * {
+  @include fluid-type(430px, 1440px, 16px, 17px);
+
+  &.medium {
+    @apply font-medium;
+  }
+  &.semibold {
+    @apply font-semibold;
+  }
+}
+
+.base,
+.base * {
+  @apply text-base font-medium;
+
+  &.gray {
+    @apply text-gray500;
+  }
+
+  &.regular {
+    @apply font-normal leading-[225%];
+  }
+
+  &.bold {
+    @apply font-ubuntu font-bold;
+  }
+}

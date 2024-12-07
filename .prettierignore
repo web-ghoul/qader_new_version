@@ -1,0 +1,8 @@
+.next/
+_next/
+__tmp__/
+dist/
+node_modules/
+target/
+compiled/
+package-lock.json

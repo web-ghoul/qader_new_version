@@ -1,0 +1,315 @@
+{
+  "header": {
+    "nav": {
+      "about": "about",
+      "why": "why?",
+      "value": "value",
+      "services": "services",
+      "portfolio": "portfolio",
+      "team": "team",
+      "clients": "clients",
+      "partners": "partners"
+    },
+    "button": "get in touch"
+  },
+  "hero": {
+    "title": "we make your brand alluring and unique.",
+    "contentTitle": "Qader",
+    "content": "is a team of professionals. we are here to help you with your business, just get in touch with us and we start your company's transformation.",
+    "Get a free consultation": "Get a free consultation!"
+  },
+  "about": {
+    "sectionTitle": "who are we",
+    "heading": "A Dynamic Team of Experts in AI, Software, Web, Mobile Apps, Data Collection, and More",
+    "subheading": "At Qader, we take pride in being a dynamic team of experts with a profound focus on Artificial Intelligence, Software Development, Web Development, Mobile Applications, Data Collection and Analysis, IT Consulting, and Cloud Services. Our diverse skill set and extensive experience empower us to deliver cutting-edge solutions tailored to meet the unique needs of our clients.",
+    "cards": {
+      "0": {
+        "title": "Business Development and Marketing",
+        "content": "offering a comprehensive package of services focused on enhancing and developing businesses."
+      },
+      "1": {
+        "title": "UX/UI Design",
+        "content": "help businesses and organizations create visually appealing anduser-centered designs for their digital products"
+      },
+      "2": {
+        "title": "Web and Apps Development",
+        "content": "help businesses and organizations create responsive, user-friendly and high-performance web and mobile applications"
+      },
+      "3": {
+        "title": "AI Models Development",
+        "content": "developing state-of-the-art AI models using cutting-edge techniques and technologies"
+      },
+      "4": {
+        "title": "Data Collection",
+        "content": "Our specialized team relies on the latest technologies and tools to collect various data and extract the maximum benefits from the information"
+      }
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "We strive to empower businesses to maximize the benefits of advanced technology. We are dedicated to providing unique and innovative solutions that contribute to achieving success and fostering a spirit of innovation and development. Thanks to our dedication and expertise, we work on transforming the challenges facing businesses into real opportunities for growth and progress."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "Pioneering the future of digital excellence, we envision a world where our multidisciplinary expertise enhances and elevates every aspect of our clients' endeavors.. We aim to build long-term partnerships with our clients, helping them to navigate the complexities of technology and to achieve their goals through the use of cutting-edge solutions."
+  },
+  "value": {
+    "sectionTitle": "Our Core Values",
+    "heading": "Unite us and elevate our ethics.",
+    "subheading": "Our values form the fundamental basis of our work culture and behaviors. They constitute the essence of our operational culture and guide everything we deliver.",
+    "cards": {
+      "0": {
+        "title": "Innovation",
+        "content": "We believe in pushing the boundaries of what's possible. Our commitment to innovation drives us to explore new horizons, challenge conventions, and pioneer breakthroughs in artificial intelligence."
+      },
+      "1": {
+        "title": "Integrity",
+        "content": "Integrity is the foundation of our relationships—with our clients, partners, and within our team. We uphold the highest ethical standards, ensuring transparency, honesty, and reliability in everything we do."
+      },
+      "2": {
+        "title": "Collaboration",
+        "content": "We recognize that the most impactful solutions emerge from collaboration. At Qader, we foster a culture of teamwork, where diverse perspectives converge to create solutions that surpass individual brilliance."
+      },
+      "3": {
+        "title": "Excellence",
+        "content": "Excellence is not just a goal, it's our standard. We are committed to delivering solutions that set the benchmark for quality, precision, and effectiveness."
+      }
+    }
+  },
+  "why": {
+    "sectionTitle": "Why To Choose Qader?",
+    "heading": "We offer innovative solutions to meet customer needs.",
+    "subheading": "With the aim of providing distinguished services that meet your needs, we at Qader dedicate ourselves to delivering appropriate solutions. We rely on dedication and diligence to ensure your satisfaction, with a focus on providing services with precision and professionalism. Our team consists of experienced experts who always strive for excellence, while committing to developing new and innovative solutions that fulfill your aspirations and achieve your goals.",
+    "cards": {
+      "0": {
+        "title": "Quality",
+        "content": "Our services are crafted with a focus on quality and precision. We adhere to the highest industry standards to ensure exceptional results."
+      },
+      "1": {
+        "title": "Innovation",
+        "content": "Focused on developing innovative solutions that meet our customers' changing needs, we have a team of creative engineers and developers who are constantly developing new ideas."
+      },
+      "2": {
+        "title": "Customer-Centric Approach",
+        "content": "Your satisfaction is our priority. We tailor our services to meet your unique requirements, providing personalized solutions for every client."
+      },
+      "3": {
+        "title": "Expert Team",
+        "content": "Our team consists of experienced professionals who bring expertise and passion to every project. Trust us to deliver excellence in every aspect."
+      }
+    }
+  },
+  "services": {
+    "sectionTitle": "our services",
+    "heading": "A collection of trendy & needed services we provide",
+    "subheading": "natural language processing, and computer vision, and we work with clients from a variety of industries to develop custom AI solutions that meet their specific needs.",
+    "cards": {
+      "0": {
+        "title": "Business Development and Marketing",
+        "content": "offering a comprehensive package of services focused on enhancing and developing businesses."
+      },
+      "1": {
+        "title": "Custom AI Model Development",
+        "content": "Empower your business with cutting-edge Artificial Intelligence solutions tailored to your unique needs."
+      },
+      "2": {
+        "title": "Software Development",
+        "content": "Transform your ideas into powerful, scalable software solutions"
+      },
+      "3": {
+        "title": "UI/UX Design",
+        "content": "Make a lasting impression with visually appealing and intuitive user interfaces."
+      },
+      "4": {
+        "title": "Data Collection",
+        "content": "meticulously gather and curate high-quality datasets tailored to your unique requirements, providing valuable insights that empower your business strategy and operational efficiency."
+      },
+      "5": {
+        "title": "Cloud Services",
+        "content": "Embrace the agility and scalability of the cloud. we help you migrate, manage, and optimize your applications."
+      },
+      "6": {
+        "title": "IT Consulting",
+        "content": "helping you align your technology investments with your business goals, and stay ahead of industry trends."
+      },
+      "7": {
+        "title": "Ongoing Support",
+        "content": "ensuring that your systems and applications run smoothly, offering prompt resolution to issues and proactive monitoring for optimal performance."
+      }
+    }
+  },
+  "portfolio": {
+    "sectionTitle": "our portfolio",
+    "heading": "A team of experts at the forefront, pioneering comprehensive digital solutions",
+    "subheading": "Explore some of our diverse portfolio showcasing a spectrum of projects that reflect our commitment to innovation, precision, and client success. From AI-driven applications to seamless software solutions, witness the transformative impact of our work across various industries. Each project is a testament to our expertise and dedication to delivering excellence in every endeavor.",
+    "cards": {
+      "0": {
+        "title": "Wesal Islamic Marriage Platform",
+        "description": "The project provides a range of services that help the user find a life partner, offering secure conversations with high privacy."
+      },
+      "1": {
+        "title": "Dialect Translation",
+        "description": "The Arabic Dialect Translation project aims to solve the challenge of dialectal differences through advanced artificial intelligence techniques that can accurately translate various Arabic dialects. These techniques rely on analyzing the grammatical rules and vocabulary of each Arabic dialect, in addition to the linguistic context of the translated text."
+      },
+      "2": {
+        "title": "Collecting & Analyzing Medical Data",
+        "description": "Represents an exceptional effort in understanding and categorizing psychiatric diseases more deeply. Our company has collected over 45,000 items of textual medical data, creating a massive repository of medical information that contributes to expanding understanding of a wide range of psychiatric diseases."
+      },
+      "3": {
+        "title": "Story Sketch",
+        "description": "Through artificial intelligence and machine learning techniques, texts are analyzed, and descriptions and details are extracted. These are then translated into artistic panels that reflect the events and characters. This project enhances the reader's interaction with the story, making them feel like they are witnessing its key moments on a colorful artistic panel."
+      },
+      "4": {
+        "title": "Bankruptcy Authority",
+        "description": "The company proudly participates in the maintenance, development, and modification operations of the advanced inquiry platform of the Saudi Bankruptcy Authority, which serves as the main interface for communication and interaction among various stakeholders."
+      },
+      "5": {
+        "title": "Arabic AI Chatbot for Detecting Mental issues",
+        "description": "A complete platform for mental health support, in addition to an advanced artificial intelligence bot that interacts with the patient through natural dialogue to analyze their mental state. The bot excels in understanding human language and uses linguistic analysis techniques in integration with available medical information."
+      },
+      "6": {
+        "title": "NajahNow Educational Web App",
+        "description": "NajahNow is a remote learning service that connects teachers and students anywhere in the world at any time. Through secure audio and visual communication links between teachers and students, we offer education without boundaries, allowing students to achieve optimal success in both academic and professional life. Only highly qualified faculty members and serious-minded students are accepted. Many of our trainers are retired experts in their fields."
+      },
+      "7": {
+        "title": "Aloo",
+        "description": "Designed to address the challenge of information overload by providing concise and meaningful summaries of large volumes of text. Whether it's news articles, research papers, or business documents, our solution intelligently extracts key insights, allowing users to quickly grasp the essence of the content without the need to read through lengthy texts."
+      }
+    }
+  },
+  "stack": {
+    "subheading": "Are you satisfied with the current progress of your business?",
+
+    "cards": {
+      "0": {
+        "title": "Are you seeking to capitalize on new investment opportunities?"
+      },
+      "1": {
+        "title": "Are you facing challenges in expanding your business scope?"
+      },
+      "2": {
+        "title": "Are you looking for an opportunity to reduce your business expenses?"
+      },
+      "3": {
+        "title": "Do you prioritize opening new horizons for your business by expanding into new markets?"
+      }
+    },
+    "Get a help": "Get a help!"
+  },
+  "team": {
+    "sectionTitle": "our team",
+    "heading": "Meet the Minds Behind Our Success",
+    "subheading": "Meet the diverse and talented individuals who form the backbone of our success, driving us forward with their unique skills, creativity, and a shared dedication to surpassing expectations.",
+    "cards": {
+      "0": {
+        "name": "Gameel Alshaer",
+        "title": "Founder",
+        "description": "Formulate the company's vision, goals, and objectives. Lead the team, and build and maintain professional relationships"
+      },
+      "1": {
+        "name": "Ahmed Dakrori",
+        "title": "Technical Director",
+        "description": "Bringing technical expertise and leadership to guide the development and implementation of advanced solutions."
+      },
+      "2": {
+        "name": "Islam Alshaer",
+        "title": "UI/UX Department Manager",
+        "description": "Overseeing the design department, ensuring visually appealing and user-friendly experiences."
+      },
+      "3": {
+        "name": "Mohammed Adel",
+        "title": "Marketing and Public Relations Director",
+        "description": "Strategizing and leading initiatives to enhance the company's presence and reputation."
+      },
+      "4": {
+        "name": "Shrouk Ashraf",
+        "title": "Marketing and Public Relations Team Leader",
+        "description": "Driving marketing and PR efforts with creativity and strategic planning."
+      },
+      "5": {
+        "name": "Ahmed Taha",
+        "title": "ML Team Leader",
+        "description": "Leading the machine learning team in developing intelligent and innovative solutions."
+      },
+      "6": {
+        "name": "Noura Saad",
+        "title": "Web Application Development Team Leader",
+        "description": "Guiding the web application development team to deliver cutting-edge and scalable solutions."
+      },
+      "7": {
+        "name": "Rana Mohammed",
+        "title": "Mobile Application Development Team Leader",
+        "description": "Leading the mobile application development team in creating impactful and user-centric mobile solutions."
+      },
+      "8": {
+        "name": "Amr Taha",
+        "title": "UI/UX team leader",
+        "description": "Guiding the UI/UX team to create visually stunning and intuitive designs."
+      }
+    }
+  },
+  "contactHeader": {
+    "title": "Want to know the rest?",
+    "button": "get in touch"
+  },
+  "contact": {
+    "sectionTitle": "contact us",
+    "heading": "Get in touch",
+    "subheading": "Feel free to reach out to us with any inquiries, collaboration opportunities, or to discuss how we can tailor our expertise to meet your unique needs. We're here to assist you on your digital journey.",
+    "info": {
+      "location": {
+        "key": "location",
+        "value": "14B, Almadina Almonwara Street, AlFardous, 6 of October City, Giza, Egypt"
+      },
+      "phone": {
+        "key": "Phone Number",
+        "value": "+20 10 338 338 02"
+      },
+      "email": {
+        "key": "Email Address",
+        "value": "info@Qadereg.com"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "subject",
+      "message": "Message",
+      "submit": "Submit",
+      "success": "Email sent successfully",
+      "failure": "Error happedned, try again later"
+    }
+  },
+  "clients": {
+    "sectionTitle": "Our Clients"
+  },
+  "partners": {
+    "sectionTitle": "Our Partners",
+    "cards": {
+      "0": {
+        "name": "NajahNow"
+      },
+      "1": {
+        "name": "ORSPRA"
+      },
+      "2": {
+        "name": "IP Wave"
+      }
+    }
+  },
+  "footer": {
+    "description": "We are here to explore the possibilities with our comprehensive digital solutions. Join us in shaping the future of technology and achieving unparalleled success. Connect with us for inquiries, collaborations, or to learn more about how our expertise can elevate your business.",
+    "links": {
+      "title": "Company",
+      "about": "about",
+      "services": "services",
+      "portfolio": "portfolio",
+      "team": "team"
+    },
+    "contact": {
+      "title": "Contact",
+      "location": "14B, Almadina Almonwara Street, AlFardous, 6 of October City, Giza, Egypt",
+      "phone": "+20 10 338 338 02"
+    }
+  }
+}

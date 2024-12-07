@@ -1,0 +1,26 @@
+.section--title {
+  --_color: var(--color, #4374fa);
+  color: var(--_color);
+  // --_bg: var(--bg, 67, 116, 250, 0.05);
+  // border-color: var(--_color);
+  // background: rgba(var(--_bg));
+
+  @apply flex font-bold text-lg uppercase w-fit;
+
+  &[data-animation='button'] {
+    transform: scale(0);
+    transform-origin: center;
+
+    > span {
+      display: inline-block;
+      width: 0;
+      overflow: hidden;
+    }
+
+    span span {
+      display: inline-block;
+      transform: translateY(20px);
+      white-space: nowrap;
+    }
+  }
+}

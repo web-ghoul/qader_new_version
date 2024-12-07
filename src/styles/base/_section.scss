@@ -1,0 +1,30 @@
+:root {
+  --section-small: 5rem;
+  --section-big: 7.75rem;
+}
+
+.section--small--padding {
+  padding-top: var(--section-small);
+  padding-bottom: var(--section-small);
+}
+.section--small--margin {
+  margin-top: var(--section-small);
+  margin-bottom: var(--section-small);
+}
+.section--big--padding {
+  padding-top: var(--section-big);
+  padding-bottom: var(--section-big);
+}
+.section--big--margin {
+  margin-top: var(--section-big);
+  margin-bottom: var(--section-big);
+}
+
+.section--dark {
+  background-color: var(--color-bg--dark);
+  color: var(--color-text--white);
+}
+
+.section--blue {
+  background-color: var(--color-bg--blue);
+}

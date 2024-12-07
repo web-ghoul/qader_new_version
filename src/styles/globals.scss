@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html:lang(ar) {
+  *:not(.logo, .logo *) {
+    @apply font-din;
+  }
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+section:lang(ar) {
+  direction: rtl;
+}
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/utils';
+
+// base
+@import 'base/typography';
+@import 'base/container';
+@import 'base/section';
+@import 'base/grid';
+@import 'base/animation';
+
+// components
+@import 'components/header';
+@import 'components/about';
+@import 'components/button';
+@import 'components/section-title';
+@import 'components/pagination';
+@import 'components/line';
+@import 'components/card';
+@import 'components/contact';
+@import 'components/footer';

@@ -1,0 +1,67 @@
+.footer {
+  div {
+    grid-column: 1/-1;
+  }
+
+  .left {
+    @include above(1024px) {
+      grid-column: span 6;
+      margin-right: 2rem;
+    }
+
+    @include above(1200px) {
+      margin-right: 0;
+    }
+  }
+
+  .center {
+    @include above(450px) {
+      grid-column: span 5;
+    }
+
+    @include above(1024px) {
+      grid-column: 7 / span 2;
+      justify-self: end;
+      margin-right: 2rem;
+    }
+  }
+
+  .right {
+    @include above(400px) {
+      grid-column: span 7;
+    }
+
+    @include above(1024px) {
+      grid-column: 9 / span 4;
+    }
+  }
+}
+
+footer .footer:lang(ar) {
+  direction: rtl;
+
+  .logo :first-child,
+  .social--btns :first-child {
+    order: 2;
+  }
+
+  .contact--info {
+    li :last-child {
+      @apply ml-0 mr-2.5;
+    }
+
+    li.phone span {
+      direction: ltr;
+    }
+  }
+
+  .center {
+    @include above(1024px) {
+      margin-left: 2rem;
+    }
+  }
+
+  .copyright {
+    text-align: left;
+  }
+}

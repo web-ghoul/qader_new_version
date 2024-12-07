@@ -1,0 +1,7 @@
+section#about:lang(ar) {
+  .card--title {
+    :last-child {
+      @apply mr-2.5 ml-0;
+    }
+  }
+}

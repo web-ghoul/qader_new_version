@@ -1,0 +1,28 @@
+.button {
+  @apply font-medium flex px-5 py-2.5 rounded-xl;
+
+  color: var(--color-btn--text--light);
+  background: var(--color-btn--light);
+
+  &:hover {
+    color: var(--color-btn--text--light--hover);
+    background: var(--color-btn--light--hover);
+  }
+
+  &[data-animation='button'] {
+    transform: scale(0);
+    transform-origin: center;
+
+    > span {
+      display: inline-block;
+      width: 0;
+      overflow: hidden;
+    }
+
+    span span {
+      display: inline-block;
+      transform: translateY(20px);
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.card--collection[data-animation='card'] {
+  .card {
+    transform: translateY(50px);
+    opacity: 0;
+
+    &.in-view {
+      transform: translateY(0);
+      opacity: 1;
+      transition:
+        1s cubic-bezier(0.25, 0.46, 0.45, 0.94) var(--delay, 0s) transform,
+        1s ease var(--delay, 0s) opacity;
+    }
+  }
+
+  &.in-view,
+  .swiper-wrapper.in-view {
+    @for $i from 1 through 12 {
+      $current-delay: 0.1s + ($i - 1) * 0.06s;
+
+      .card:nth-child(#{$i}) {
+        --delay: #{$current-delay};
+      }
+    }
+
+    .card[data-animation='card'] {
+      transform: translateY(0);
+      opacity: 1;
+      transition:
+        1s cubic-bezier(0.25, 0.46, 0.45, 0.94) var(--delay) transform,
+        1s ease var(--delay) opacity;
+    }
+  }
+}
+
+.card:lang(ar) {
+  .card__btns {
+    direction: ltr;
+  }
+}

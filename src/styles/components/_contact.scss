@@ -1,0 +1,14 @@
+#getintouch:lang(ar) {
+  .list__item * {
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .list__item:nth-child(2) span {
+    direction: ltr;
+  }
+
+  .contact--inputs .line {
+    bottom: 0;
+  }
+}
