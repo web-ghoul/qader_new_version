@@ -59,9 +59,5 @@ footer .footer:lang(ar) {
     @include above(1024px) {
       margin-left: 2rem;
     }
-  }
-
-  .copyright {
-    text-align: left;
-  }
+    }
 }

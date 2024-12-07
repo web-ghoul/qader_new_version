@@ -35,6 +35,9 @@ section:lang(ar) {
   direction: rtl;
 }
 
+section {
+  padding: 60px 0;
+}
 // abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';

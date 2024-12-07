@@ -2,28 +2,19 @@ import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import Logo from '../Logo/Logo'
 
-const NAVITEMS = [
-  'about',
-  'why',
-  'value',
-  'services',
-  'portfolio',
-  'team',
-  'clients',
-  'partners',
-]
+const NAVITEMS = ['about', 'our-services', 'our-works', 'our-teams', 'contact']
 
 export const Header = ({ locale }: { locale: string }) => {
   const t = useTranslations('header')
   return (
-    <header className="page--header z-50 absolute py-5 md:py-10 container center-align-vertical">
+    <header className="page--header absolute z-[10000] py-5 md:py-10 container center-align-vertical">
       <div className="text-white flex items-center justify-between">
         <Logo locale={locale} />
         <nav className="hidden md:block !flex justify-end items-center gap-6">
           <ul className="flex items-center space-x-10">
             {NAVITEMS.map((item) => (
               <li key={item} className="link-hover">
-                <Link href={`#${item}`}>{t(`nav.${item}`)}</Link>
+                <Link href={`/${item}`}>{t(`nav.${item}`)}</Link>
               </li>
             ))}
           </ul>

@@ -84,7 +84,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="copyright mt-36 text-right opacity-80">
+        <div className="copyright mt-36 text-center opacity-80">
           Copyright 2023 © Qader
         </div>
       </div>

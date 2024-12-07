@@ -1,4 +1,3 @@
-import { LenisScroller } from '@/animations'
 import { Footer } from '@/components/Footer/Footer'
 import { Header } from '@/components/Header/Header'
 import { ScrollUp } from '@/components/ScrollUp/ScrollUp'
@@ -60,7 +59,6 @@ export default function Home({
         <ScrollUp />
       </main>
       <Footer />
-      <LenisScroller />
     </>
   )
 }

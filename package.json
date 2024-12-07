@@ -19,6 +19,7 @@
     "next-intl": "^3.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-slideshow-image": "^4.3.0",
     "split-type": "^0.3.4",

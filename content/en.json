@@ -2,13 +2,10 @@
   "header": {
     "nav": {
       "about": "about",
-      "why": "why?",
-      "value": "value",
-      "services": "services",
-      "portfolio": "portfolio",
-      "team": "team",
-      "clients": "clients",
-      "partners": "partners"
+      "our-services": "our services",
+      "our-works": "our works",
+      "our-teams": "our team",
+      "contact": "contact us"
     },
     "button": "get in touch"
   },

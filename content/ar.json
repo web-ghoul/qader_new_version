@@ -2,13 +2,10 @@
   "header": {
     "nav": {
       "about": "من نحن",
-      "why": "لماذا تختار قادر؟",
-      "value": "قيمنا الأساسية",
-      "services": "خدماتنا",
-      "portfolio": "أعمالنا",
-      "team": "فريقنا",
-      "partners": "شركاؤنا",
-      "clients": "عملاؤنا"
+      "our-services": "خدماتنا",
+      "our-works": "اعمالنا",
+      "our-teams": "فريقنا",
+      "contact": "تواصل معنا"
     },
     "button": "تواصل معنا"
   },

@@ -59,7 +59,6 @@ export default function RootLayout({
         >
           {children}
         </NextIntlClientProvider>
-
         <LenisScroller />
       </body>
     </html>
