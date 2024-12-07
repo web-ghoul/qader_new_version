@@ -1,6 +1,6 @@
-import { AboutCardType } from '@/types/components.types'
+import { AboutCardTypes } from '@/types/components.types'
 
-const AboutCard = ({ Icon, title, content, imgPath }: AboutCardType) => {
+const AboutCard = ({ Icon, title, content, imgPath }: AboutCardTypes) => {
   return (
     <div
       className="card flex-1 flex flex-col gap-6 bg-gray100 px-7.5 min-w-[14rem] rounded-2xl group relative"
