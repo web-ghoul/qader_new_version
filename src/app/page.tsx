@@ -10,8 +10,10 @@ const Page = () => {
   const router = useRouter()
 
   useEffect(() => {
-    const locale = localStorage.getItem('lang') || 'ar'
-    router.push(`/${locale}`)
+    if (typeof window !== 'undefined') {
+      const locale = localStorage.getItem('lang') || 'ar'
+      router.push(`/${locale}`)
+    }
   }, [router])
 
   return (
