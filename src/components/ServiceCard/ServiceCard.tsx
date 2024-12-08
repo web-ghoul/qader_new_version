@@ -1,10 +1,12 @@
 import { ServiceCardTypes } from '@/types/components.types'
+import Link from 'next/link'
 import { Icons } from '../icons'
 
 const COLORS = ['#ADC3FF', '#D0E957', '#FFBC01', '#FFF9F7']
-const ServiceCard = ({ title, content, idx }: ServiceCardTypes) => {
+const ServiceCard = ({ title, content, idx, locale }: ServiceCardTypes) => {
   return (
-    <div
+    <Link
+      href={`/${locale}/our-services`}
       key={title}
       className={
         'aspect-[1/1.4] flex flex-col justify-between py-11 px-7.5 rounded-2xl text-black overflow-hidden group '
@@ -31,7 +33,7 @@ const ServiceCard = ({ title, content, idx }: ServiceCardTypes) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

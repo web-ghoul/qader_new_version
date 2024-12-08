@@ -1,10 +1,11 @@
-"use client";
-import { cn } from "@/lib/utils";
-import { useEffect, useRef, useState } from "react";
+'use client'
+import { cn } from '@/lib/utils'
+import { useEffect, useRef, useState } from 'react'
 
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = '#000',
   gradientBackgroundEnd = '#6877ed',
+  locale = 'ar',
   firstColor = '18, 113, 255',
   secondColor = '221, 74, 255',
   thirdColor = '100, 220, 255',
@@ -19,6 +20,7 @@ export const BackgroundGradientAnimation = ({
 }: {
   gradientBackgroundStart?: string
   gradientBackgroundEnd?: string
+  locale?: string
   firstColor?: string
   secondColor?: string
   thirdColor?: string
@@ -87,10 +89,19 @@ export const BackgroundGradientAnimation = ({
   return (
     <section
       className={cn(
-        'h-screen w-screen relative overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end),#ff6a00)]',
+        `h-screen w-screen relative overflow-hidden top-0 left-0`,
         containerClassName
       )}
     >
+      <div
+        className={cn(
+          `h-screen w-screen absolute overflow-hidden top-0 left-0 bg-cover bg-no-repeat bg-center ${
+            locale === 'ar' ? '-scale-x-100' : ' scale-x-100'
+          }`,
+          containerClassName
+        )}
+        style={{ backgroundImage: `url("/gradient-bg.webp")` }}
+      ></div>
       <svg className="hidden">
         <defs>
           <filter id="blurMe">

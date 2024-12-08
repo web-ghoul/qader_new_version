@@ -8,7 +8,7 @@ const AnimateHeroSection = ({ locale }: { locale: string }) => {
     <BackgroundGradientAnimation>
       <div className="absolute !z-[1000] inset-0 flex items-center justify-stretch text-white w-full">
         <div className="grid justify-stretch items-center gap-20 container">
-          <div className="grid justify-between items-end gap-10 w-[50%]">
+          <div className="grid justify-between items-end gap-8 w-[50%]">
             <h5 data-animation="text-reveal" className="text-3xl font-[800]">
               {t('contentTitle')}
             </h5>

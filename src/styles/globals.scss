@@ -30,13 +30,18 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.1);
 }
-
 section:lang(ar) {
   direction: rtl;
 }
-
 section {
   padding: 60px 0;
+}
+.loading_lottie {
+
+  svg {
+    width: 200px !important;
+    height: 200px !important;
+  }
 }
 // abstracts
 @import 'abstracts/variables';

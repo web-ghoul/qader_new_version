@@ -1,3 +1,4 @@
+'use client'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { ReactNode, useRef } from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'

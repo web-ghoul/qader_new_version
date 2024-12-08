@@ -1,20 +1,30 @@
+'use client'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import Logo from '../Logo/Logo'
 
 const NAVITEMS = ['about', 'our-services', 'our-works', 'our-teams', 'contact']
 
 export const Header = ({ locale }: { locale: string }) => {
   const t = useTranslations('header')
+  const pathname = usePathname()
+
   return (
-    <header className="page--header absolute z-[10000] py-5 md:py-10 container center-align-vertical">
+    <header
+      className={`${
+        pathname === `/${locale}`
+          ? 'absolute  translate-x-[-50%] top-0 left-[50%]'
+          : 'sticky bg-black'
+      } z-[10000] py-5 md:py-10 container`}
+    >
       <div className="text-white flex items-center justify-between">
         <Logo locale={locale} />
-        <nav className="hidden md:block !flex justify-end items-center gap-6">
+        <nav className="md:flex hidden justify-end items-center gap-6">
           <ul className="flex items-center space-x-10">
             {NAVITEMS.map((item) => (
               <li key={item} className="link-hover">
-                <Link href={`/${item}`}>{t(`nav.${item}`)}</Link>
+                <Link href={`/${locale}/${item}`}>{t(`nav.${item}`)}</Link>
               </li>
             ))}
           </ul>

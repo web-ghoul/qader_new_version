@@ -21,6 +21,7 @@ interface ServiceCardTypes {
   title: string
   content: string
   idx: number
+  locale: string
 }
 
 interface OurWorkCardTypes {

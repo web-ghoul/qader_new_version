@@ -9,7 +9,7 @@ import 'swiper/css/pagination'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const ServicesSection = () => {
+const ServicesSection = ({ locale }: { locale: string }) => {
   const t = useTranslations('services')
 
   const titleStyles = {
@@ -72,16 +72,15 @@ const ServicesSection = () => {
                 data-animation="card"
               >
                 <ServiceCard
+                  locale={locale}
                   title={t(`cards.${idx}.title`)}
                   content={t(`cards.${idx}.content`)}
                   idx={idx}
                 />
               </SwiperSlide>
             ))}
-
             <div className="swiper--pagination mt-10 flex justify-end items-center">
               <div className="custom-pagination" />
-
               <div className="flex space-x-2.5">
                 <button className="swiper-button-prev bg-gray700 disabled:bg-gray800 py-2.5 px-5 rounded-full duration-500">
                   <Icons.arrowRight className="rotate-180" />

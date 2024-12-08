@@ -1,5 +1,3 @@
-import { Footer } from '@/components/Footer/Footer'
-import { Header } from '@/components/Header/Header'
 import { ScrollUp } from '@/components/ScrollUp/ScrollUp'
 import AboutSection from '@/sections/AboutSection'
 import AnimateHeroSection from '@/sections/AnimateHeroSection'
@@ -32,33 +30,29 @@ export default function Home({
   const tV = useTranslations('vision')
 
   return (
-    <>
-      <Header locale={locale} />
-      <main>
-        <AnimateHeroSection locale={locale} />
-        <AboutSection />
-        <WhySection />
-        <ValueSection />
-        <TwoColumnsSection
-          title={tM('title')}
-          content={tM('content')}
-          borderTop
-        />
-        <ServicesSection />
-        <TwoColumnsSection
-          title={tV('title')}
-          content={tV('content')}
-          borderBottom
-        />
-        <OurWorksSection />
-        <TeamSection />
-        <StacksSection locale={locale} />
-        <ClientsSection locale={locale} />
-        <PartnersSection />
-        <ContactSection />
-        <ScrollUp />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <AnimateHeroSection locale={locale} />
+      <AboutSection />
+      <WhySection />
+      <ValueSection />
+      <TwoColumnsSection
+        title={tM('title')}
+        content={tM('content')}
+        borderTop
+      />
+      <ServicesSection locale={locale} />
+      <TwoColumnsSection
+        title={tV('title')}
+        content={tV('content')}
+        borderBottom
+      />
+      <OurWorksSection />
+      <TeamSection />
+      <ClientsSection locale={locale} />
+      <StacksSection locale={locale} />
+      <PartnersSection />
+      <ContactSection />
+      <ScrollUp />
+    </main>
   )
 }

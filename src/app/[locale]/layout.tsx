@@ -1,4 +1,6 @@
 import { LenisScroller } from '@/animations'
+import { Footer } from '@/components/Footer/Footer'
+import { Header } from '@/components/Header/Header'
 import '@/styles/globals.scss'
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
@@ -57,7 +59,9 @@ export default function RootLayout({
           locale={locale}
           messages={locale === 'ar' ? translationsAr : translationsEn}
         >
+          <Header locale={locale} />
           {children}
+          <Footer />
         </NextIntlClientProvider>
         <LenisScroller />
       </body>
