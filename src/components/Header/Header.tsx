@@ -12,11 +12,7 @@ export const Header = ({ locale }: { locale: string }) => {
 
   return (
     <header
-      className={`${
-        pathname === `/${locale}`
-          ? 'absolute  translate-x-[-50%] top-0 left-[50%]'
-          : 'sticky bg-black'
-      } z-[10000] py-5 md:py-10 container`}
+      className={`absolute translate-x-[-50%] top-0 left-[50%] z-[10000] py-5 md:py-10 container`}
     >
       <div className="text-white flex items-center justify-between">
         <Logo locale={locale} />

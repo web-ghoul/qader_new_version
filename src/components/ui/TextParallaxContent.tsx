@@ -16,12 +16,7 @@ export const TextParallaxContent = ({
   children: ReactNode
 }) => {
   return (
-    <div
-      style={{
-        paddingLeft: IMG_PADDING,
-        paddingRight: IMG_PADDING,
-      }}
-    >
+    <div>
       <div className="relative h-[150vh]">
         <StickyImage imgUrl={imgUrl} />
         <OverlayCopy heading={heading} subheading={subheading} />

@@ -1,9 +1,9 @@
-import WorksHeroSection from '@/sections/WorksHeroSection'
+import AboutHeroSection from '@/sections/AboutHeroSection'
 
 const page = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <main>
-      <WorksHeroSection locale={locale} />
+      <AboutHeroSection locale={locale} />
     </main>
   )
 }

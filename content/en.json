@@ -15,6 +15,8 @@
     "content": "is a team of professionals. we are here to help you with your business, just get in touch with us and we start your company's transformation.",
     "Get a free consultation": "Get a free consultation!"
   },
+  "servicesHero": {},
+  "worksHero": {},
   "about": {
     "sectionTitle": "who are we",
     "heading": "A Dynamic Team of Experts in AI, Software, Web, Mobile Apps, Data Collection, and More",
@@ -42,6 +44,7 @@
       }
     }
   },
+  "aboutHero": {},
   "mission": {
     "title": "Our Mission",
     "content": "We strive to empower businesses to maximize the benefits of advanced technology. We are dedicated to providing unique and innovative solutions that contribute to achieving success and fostering a spirit of innovation and development. Thanks to our dedication and expertise, we work on transforming the challenges facing businesses into real opportunities for growth and progress."
