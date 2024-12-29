@@ -4,7 +4,7 @@ import '@/styles/globals.scss'
 import Lottie from 'lottie-react'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
-import image from '../../public/images/loading.json'
+import image from '../../public/loading.json'
 
 const Page = () => {
   const router = useRouter()

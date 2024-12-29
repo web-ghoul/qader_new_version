@@ -17,8 +17,12 @@ const TeamSection = () => {
           className="card--collection special page-grid gap-6 gap-y-16"
           data-animation="card"
         >
-          <div className="bg-blue600 text-white rounded-2xl center-flex flex-col text-center p-[8vw] space-y-5 sm:p-[3.75rem] col-span-full md:col-span-8 lg:col-span-9">
-            <h2 className="font-ubuntu" data-animation="text-reveal">
+          <div
+            className="bg-blue600 text-white rounded-2xl flex flex-col overflow-hidden p-[8vw] space-y-5 sm:p-[3.75rem] col-span-full md:col-span-8 lg:col-span-9 bg-center bg-no-repeat bg-cover justify-end items-center relative pt-4 text-center"
+            style={{ backgroundImage: `url('/team.jpg')` }}
+          >
+            <div className="absolute top-0 left-0 bg-[rgba(0,0,0,0.5)] w-full h-full"></div>
+            <h2 className="font-ubuntu pt-2" data-animation="text-reveal">
               {t('heading')}
             </h2>
             <div

@@ -29,7 +29,7 @@ export const ScrollUp = () => {
 
   return (
     <button
-      className={`scroll-to-top transition-opacity duration-300 ${
+      className={`scroll-to-top flex justify-center items-center transition-opacity duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}
       onClick={scrollToTop}

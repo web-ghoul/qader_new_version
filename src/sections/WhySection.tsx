@@ -1,4 +1,4 @@
-import WhyCard from '@/components/WhyCard/WhyCard'
+import { MeteorsDemo } from '@/components/MeteorsDemo/MeteorsDemo'
 import { WHY_CARDS } from '@/Contants'
 import { useTranslations } from 'next-intl'
 
@@ -22,15 +22,14 @@ const WhySection = () => {
         </div>
 
         <div
-          className="card--collection grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="card--collection grid sm:grid-cols-2 lg:grid-cols-3 gap-8"
           data-animation="card"
         >
-          {WHY_CARDS.map((item, idx) => (
-            <WhyCard
-              key={item.title}
-              {...item}
+          {WHY_CARDS.map((_, idx) => (
+            <MeteorsDemo
               title={t(`cards.${idx}.title`)}
               content={t(`cards.${idx}.content`)}
+              key={idx}
             />
           ))}
         </div>

@@ -41,15 +41,15 @@ export const ContactForm = ({
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    if(!form || !form.current){
+    if (!form || !form.current) {
       return
     }
     emailjs
       .sendForm(
-        'service_s2osmht',
-        'template_vhbab9j',
+        'service_rk433wf',
+        'template_uhow17s',
         form.current,
-        'QprqW1mwgfcw79fWe'
+        'Y-iV_sZvHNxBdfc6e'
       )
       .then(
         (result) => {
@@ -72,7 +72,7 @@ export const ContactForm = ({
           <div className="flex-1 relative group">
             <input
               required
-              name="nameInput"
+              name="name"
               className="w-full p-2.5 lg:p-5 placeholder:text-gray500 border-gray500 border-b outline-none bg-transparent"
               type="text"
               value={nameInput}
@@ -85,7 +85,7 @@ export const ContactForm = ({
           <div className="flex-1 relative group">
             <input
               required
-              name="emailInput"
+              name="email"
               className="w-full p-2.5 lg:p-5 placeholder:text-gray500 border-gray500 border-b outline-none bg-transparent"
               type="email"
               value={emailInput}
@@ -99,7 +99,7 @@ export const ContactForm = ({
         <div className="relative group">
           <input
             required
-            name="subjectInput"
+            name="subject"
             className="w-full p-2.5 lg:p-5 placeholder:text-gray500 border-gray500 border-b outline-none bg-transparent"
             type="text"
             value={subjectInput}
@@ -112,7 +112,7 @@ export const ContactForm = ({
         <div className="relative group">
           <textarea
             required
-            name="messageInput"
+            name="message"
             className="w-full flex-1 min-h-[10rem] p-2.5 lg:p-5 placeholder:text-gray500 border-gray500 outline-none border-b bg-transparent"
             value={messageInput}
             onChange={(e) => setMessage(e.target.value)}
@@ -130,6 +130,7 @@ export const ContactForm = ({
             ? ' bg-red-600 cursor-default'
             : 'bg-blue600'
         }`}
+        type="submit"
       >
         {isSuccess ? success : isError ? error : submit}
       </button>

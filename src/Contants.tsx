@@ -75,19 +75,18 @@ export const SERVICES = [
 ]
 
 export const CLIENTS_IMAGES = [
-  'images/1.png',
-  'images/2.png',
-  'images/3.png',
-  'images/4.png',
-  'images/5.png',
-  'images/6.png',
-  'images/7.jpg',
-  'images/8.png',
-  'images/9.png',
-  'images/10.png',
-  'images/11.png',
-  'images/12.png',
-  'images/13.png',
+  'clients/1.png',
+  'clients/2.png',
+  'clients/4.png',
+  'clients/5.png',
+  'clients/6.png',
+  'clients/9.png',
+  'clients/13.png',
+  'clients/15.svg',
+  'clients/16.png',
+  'clients/17.svg',
+  'clients/18.svg',
+  'clients/19.png',
 ]
 
 export const OUR_WORKS_CARDS = [
@@ -136,18 +135,11 @@ export const OUR_WORKS_CARDS = [
 ]
 
 export const OUR_PARTNERS_CARDS = [
-  {
-    image: 'partners/1.png',
-    name: 'Najah Now',
-  },
-  {
-    image: 'partners/2.png',
-    name: 'ORSPRA',
-  },
-  {
-    image: 'partners/3.jpeg',
-    name: 'IP Wave',
-  },
+  'partners/1.png',
+  'partners/2.png',
+  'partners/3.png',
+  'partners/4.png',
+  'partners/5.png',
 ]
 
 export const STACK_CARDS = [
@@ -171,65 +163,114 @@ export const STACK_CARDS = [
 
 export const TEAM_CARDS = [
   {
-    imgPath: '/team/1.webp',
+    imgPath: '/team/founder.jpeg',
     name: 'Gameel Alshaer',
     title: 'Founder & Head of ML Team',
     description:
       "Formulate the company's vision, goals, and objectives. Lead the team, and build and maintain professional relationships",
   },
   {
-    imgPath: '/team/2.webp',
-    name: 'Ahmed Dakrori',
-    title: 'Technical Director',
+    imgPath: '/team/ahmed_taha.png',
+    name: 'Ahmed Taha',
+    title: 'ML Team Leader (Tuba)',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/3.webp',
-    name: 'Islam Alshaer',
-    title: 'UI/UX Department Manager',
+    imgPath: '/team/shrouk.jpg',
+    name: 'Shrouk Magrash',
+    title: 'Project Manager (Tuba)',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/4.webp',
-    name: 'Mohammed Adel',
-    title: 'Marketing and Public Relations Director',
+    imgPath: '/team/kareem_maher.jpg',
+    name: 'Kareen Maher (Tuba)',
+    title: 'Accounting Manager (Tuba)',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/5.webp',
-    name: 'Shrouk Ashraf',
+    imgPath: '/team/kareem_ezat.jpg',
+    name: 'Kareem Ezat (Matrix)',
     title: 'Marketing and Public Relations Team Leader',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/6.webp',
-    name: 'Ahmed Taha',
+    imgPath: '/team/mazen_ahmed.jpg',
+    name: 'Mazen Ahmed (Qader)',
     title: 'ML Team Leader',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/7.webp',
-    name: 'Nora Saad',
+    imgPath: '/team/salama.jpg',
+    name: 'Mahmoud Salama (Tuba)',
     title: 'Web Application Development Team Leader',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/8.webp',
-    name: 'Rana Mohammed',
-    title: 'Mobile Application Development Team Leader',
+    imgPath: '/team/salah.jpg',
+    name: 'Salah Ahmed (Tuba)',
+    title: 'Backend Developer',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },
   {
-    imgPath: '/team/9.webp',
-    name: 'Amr Taha',
-    title: 'UI/UX team leader',
+    imgPath: '/team/abdallah_askar.png',
+    name: 'Abdallah Asker (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/nader.png',
+    name: 'Nader Mamdouh (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/ahmed_abdelfattah.png',
+    name: 'Ahmed Abdelfattah (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/hader.jpg',
+    name: 'Amr Taha (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/omnia.jpg',
+    name: 'Amr Taha (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/amr_taha.jpg',
+    name: 'Amr Taha (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/ali_tarek.png',
+    name: 'Amr Taha (Tuba)',
+    title: 'Backend Developer',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
+  },
+  {
+    imgPath: '/team/monge.png',
+    name: 'Amr Taha (Tuba)',
+    title: 'Backend Developer',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero optio illum perferendis facilis illo delectus',
   },

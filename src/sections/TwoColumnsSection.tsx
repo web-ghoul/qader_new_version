@@ -13,7 +13,7 @@ export const TwoColumnsSection = ({
     <section className="two--column container">
       <div
         className={
-          `${borderTop ? 'mb-20 ' : ''}` + `${borderBottom ? 'mt-20 ' : ''}`
+          `${borderTop ? 'mb-5' : ''}` + `${borderBottom ? 'mt-5 ' : ''}`
         }
       >
         {borderTop ? (

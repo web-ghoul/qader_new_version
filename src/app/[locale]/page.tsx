@@ -1,12 +1,11 @@
 import { ScrollUp } from '@/components/ScrollUp/ScrollUp'
+import Whatsapp from '@/components/Whatsapp/Whatsapp'
 import AboutSection from '@/sections/AboutSection'
 import AnimateHeroSection from '@/sections/AnimateHeroSection'
 import ClientsSection from '@/sections/ClientsSection'
 import ContactSection from '@/sections/ContactSection'
 import OurWorksSection from '@/sections/OurWorksSection'
 import PartnersSection from '@/sections/PartnersSection'
-import ServicesSection from '@/sections/ServicesSection'
-import StacksSection from '@/sections/StacksSection'
 import TeamSection from '@/sections/TeamSection'
 import { TwoColumnsSection } from '@/sections/TwoColumnsSection'
 import ValueSection from '@/sections/ValueSection'
@@ -34,25 +33,26 @@ export default function Home({
       <AnimateHeroSection locale={locale} />
       <AboutSection />
       <WhySection />
-      <ValueSection />
       <TwoColumnsSection
         title={tM('title')}
         content={tM('content')}
         borderTop
       />
-      <ServicesSection locale={locale} />
+      <ValueSection />
+      {/* <ServicesSection locale={locale} /> */}
       <TwoColumnsSection
         title={tV('title')}
         content={tV('content')}
-        borderBottom
+        borderTop
       />
+      <ClientsSection locale={locale} />
       <OurWorksSection />
       <TeamSection />
-      <ClientsSection locale={locale} />
-      <StacksSection locale={locale} />
-      <PartnersSection />
+      {/* <StacksSection locale={locale} /> */}
+      <PartnersSection locale={locale} />
       <ContactSection />
       <ScrollUp />
+      <Whatsapp />
     </main>
   )
 }
