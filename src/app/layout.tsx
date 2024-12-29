@@ -1,6 +1,7 @@
 import '@/styles/globals.scss'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
+import Script from 'next/script'
 
 const din = localFont({
   src: [
@@ -35,7 +36,21 @@ export default function RootLayout({
 }) {
   return (
     <html className={`${din.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-BCS17WKJNF"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BCS17WKJNF');
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   )
 }
